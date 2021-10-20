@@ -1,10 +1,6 @@
-#! python3
-# Task2.py
+#! python
 
 """
-Ask the user to enter a number.
-Tell them if the number is both a perfect square and a perfect cube.
-
 Note:  Many languages have a problem when dealing with floating point
 decimals, and python is no exception.
 Sometimes, when finding the cube root of large numbers, like 729,
@@ -31,3 +27,21 @@ Enter a number: 8
 Enter a number: 64
 64 is both a perfect square and a perfect cube.
 """
+import math 
+print("enter a number")
+number = input()
+x = int(number)
+if(int(round(x ** (1. / 3))) ** 3 == x):
+  print(number, "It is a perfect cube")
+number = int(x)
+root = math.sqrt(number)
+if int(root + 0.5) ** 2 == number:
+    print(number, "It is a perfect square")
+    if (int(round(x ** (1. / 3))) ** 3 == x) and int(root + 0.5) ** 2 == number:
+      print( number, "is both a perfect square and a perfect cube")
+
+
+
+
+
+
