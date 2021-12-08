@@ -24,6 +24,6 @@ x = input()
 if (x == VIPNames):
    print("Hi!",x,"you are a VIP!")
 else:
-   print("you're not a VIP")
+   print("You are not a VIP")
 
 

@@ -36,9 +36,9 @@ if(int(round(x ** (1. / 3))) ** 3 == x):
 number = int(x)
 root = math.sqrt(number)
 if int(root + 0.5) ** 2 == number:
-    print(number, "It is a perfect square")
+    print(number, "is only a perfect square.")
     if (int(round(x ** (1. / 3))) ** 3 == x) and int(root + 0.5) ** 2 == number:
-      print( number, "is both a perfect square and a perfect cube")
+      print( number, "is both a perfect square and a perfect cube.")
 
 
 
