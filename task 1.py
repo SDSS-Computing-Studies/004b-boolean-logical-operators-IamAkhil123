@@ -18,6 +18,7 @@ Tell them if the number is between 0.9759 and 1.016.\
 """
 
 """
+l
 The Earth maintains an orbit where it's closest distance to  
 the sun is 0.9759 AU and it's furthest distance to the sun is 
 1.016 AU. 
