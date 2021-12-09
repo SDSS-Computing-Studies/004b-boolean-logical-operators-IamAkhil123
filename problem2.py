@@ -15,7 +15,7 @@ else:
 Problem 2
 Factors are positive integers that divide evenly into another integer.
 The user will enter in two numbers. Determine if the smaller is a factor of the larger
-
+f
 You can use an if statement to determine which is larger, or use the
 max() function to determine the larger of the two
 (2 marks)
