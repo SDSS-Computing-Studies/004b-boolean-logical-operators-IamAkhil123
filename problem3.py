@@ -3,16 +3,16 @@
 x = input("Enter an integer")
 y = input("Enter an interger")
 z = input("Enter an interger")
-a = max(x,y,z)
-b = min(x,y,z)
 my_list = [x,y,z]
 my_list.sort()
 c = my_list[int(len(my_list)/2)]
+a = max(x,y,z)
+b = min(x,y,z)
 g = b + "," + c + "," + a
 if float(b) ** 2 + float(c) ** 2 == float(a) ** 2:
- print(g, "form a Pythagorean Triple")
+ print(g, "form a Pythagorean triple")
 else:
- print(g, "do not form a Pythagorean Triple")
+ print(g, "do not form a Pythagorean triple")
 """
 Problem 3
 Pythagorean triples are sets of 3 integers such that the squares of the 2 smaller numbers is equal to the square of the third.
