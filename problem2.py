@@ -1,5 +1,16 @@
 #! python3
 
+x = input("Enter a number")
+y = input("Enter another number")
+u = max(x, y)
+r = min(x, y)
+p = float(r) % float(u)
+l = p == 0
+if l == True:
+    print(u,"is a factor of",r)
+else:
+    print(u,"is not a factor of",r)
+
 """
 Problem 2
 Factors are positive integers that divide evenly into another integer.

@@ -1,5 +1,17 @@
 #! python3
- 
+
+x = input("Enter a number")
+
+p = float(x) % 6
+y = p == 0
+l = float(x) % 8 
+y2 = l == 0
+
+if y == True and y2 == False:
+ print(x, "is frue")
+else:
+ print(x, "is not frue")
+
 """
 Problem 1
 Ask the user to enter a number.
