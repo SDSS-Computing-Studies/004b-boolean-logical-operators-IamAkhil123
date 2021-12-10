@@ -6,7 +6,7 @@ x = int(x)
 y = int(y)
 u = max(x, y)
 r = min(x, y)
-p = float(r) % float(u)
+p = float(u) % float(r)
 l = p == 0
 if l == True:
     print(r,"is a factor of",u)
