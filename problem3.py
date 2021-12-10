@@ -10,7 +10,7 @@ c = max(x,y,z)
 a = min(x,y,z)
 my_list = (x,y,z)
 b = my_list[int(len(my_list)/2)]
-g = str(a) + ", " + str(b) + ", " + str(c)
+g = str(a) + "," + str(b) + "," + str(c)
 if a ** 2 + b ** 2 == c ** 2:
  print(g, "form a Pythagorean triple")
 else:
