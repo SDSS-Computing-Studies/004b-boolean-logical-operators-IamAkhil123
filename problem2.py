@@ -2,14 +2,16 @@
 
 x = input("Enter a number")
 y = input("Enter another number")
+x = int(x)
+y = int(y)
 u = max(x, y)
 r = min(x, y)
 p = float(r) % float(u)
 l = p == 0
 if l == True:
-    print(u,"is a factor of",r)
+    print(r,"is a factor of",u)
 else:
-    print(u,"is not a factor of",r)
+    print(r,"is not a factor of",u)
 
 """
 Problem 2
