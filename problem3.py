@@ -8,8 +8,8 @@ y = int(y)
 z = int(z)
 c = max(x,y,z)
 a = min(x,y,z)
-my_list = (x,y,z)
-b = my_list[int(len(my_list)/2)]
+mylist = [x,y,z]
+b = sorted(mylist)[len(mylist) // 2]
 g = str(a) + "," + str(b) + "," + str(c)
 if a ** 2 + b ** 2 == c ** 2:
  print(g, "form a Pythagorean triple")
@@ -41,7 +41,12 @@ Enter an integer=>3
 Enter an integer=>5
 Enter an integer=>4
 3,4,5 form a Pythagorean triple
-
+mylist = [x,y,z]
+c = max(x,y,z)
+a = min(x,y,z)
+my_list = (x,y,z)
+sorted(x)[len(x) // 2]
+b = my_list[int(len(my_list)/2)]
 Enter an integer=>5
 Enter an integer=>4
 Enter an integer=>2
