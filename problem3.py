@@ -11,7 +11,7 @@ a = min(x,y,z)
 my_list = (x,y,z)
 b = my_list[int(len(my_list)/2)]
 g = str(a) + "," + str(b) + "," + str(c)
-if b ** 2 + c ** 2 == a ** 2:
+if a ** 2 + b ** 2 == c ** 2:
  print(g, "form a Pythagorean triple")
 else:
  print(g, "do not form a Pythagorean triple")
